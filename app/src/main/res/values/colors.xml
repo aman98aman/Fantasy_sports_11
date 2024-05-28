@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0c1434</color>
+    <color name="colorPrimaryDark">#0c1434</color>
+    <color name="colorAccent">#0c1434</color>
+    <color name="background">#ECF2FF</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="orange">#d9353e</color> <!-- valencia -->
+    <color name="green">#0c1434</color>
+    <color name="tabtextselected">#cbb3a7</color> <!-- rodeo-dust -->
+    <color name="tabtextselected2">#6a243c</color> <!-- tawny-port -->
+    <color name="tabtextunselectednew">#343b54</color> <!-- oxford-blue -->
+    <color name="tabtextunselected">#676b7d</color> <!-- storm-gray -->
+    <color name="sixtwo">#676b7d</color> <!-- storm-gray -->
+    <color name="eightE">#8e8e8e</color>
+    <color name="myteamCaptain">#d9353e</color> <!-- valencia -->
+    <color name="myteamVCaptain">#6a243c</color> <!-- tawny-port -->
+    <color name="myteamdivider">#dbdbdb</color>
+    <color name="blue">#343b54</color> <!-- oxford-blue -->
+    <color name="deep_blue">#434a64</color> <!-- fiord -->
+    <color name="colorPink">#6a243c</color> <!-- tawny-port -->
+
+    <color name="team_header">#cbb3a7</color> <!-- rodeo-dust -->
+
+    <color name="yellow_theme">#ECBD15</color>
+    <color name="textColor">#1d2441</color> <!-- New color not provided, keeping original -->
+
+    <color name="selected_icon">#343b54</color> <!-- oxford-blue -->
+    <color name="unselected_icon">#8e8e8e</color>
+
+    <color name="leaderboard_text">#1e1e1e</color>
+
+    <!--Sign In Color-->
+    <color name="login_sign_up">#cbb3a7</color> <!-- rodeo-dust -->
+    <!--<color name="btn_txt_color">#b01f40</color>-->
+    <color name="btn_txt_color">@color/colorPrimary</color>
+    <color name="rounded_corner_lgn">#FFF</color>
+    <color name="sign_in_btn">#cbb3a7</color> <!-- rodeo-dust -->
+    <color name="lets_play">#000000</color>
+    <color name="tab_bck">#ffff</color>
+    <color name="header_start">#6a243c</color> <!-- tawny-port -->
+    <color name="header_center">#d9353e</color> <!-- valencia -->
+    <color name="header_end">#d9353e</color> <!-- valencia -->
+    <color name="rouned_transprnt_border">#cbb3a7</color> <!-- rodeo-dust -->
+    <color name="vs_back">#6a243c</color> <!-- tawny-port -->
+    <color name="hint">#8e8e8e</color>
+
+    <color name="pink_btn">#AD2E3A</color>
+    <color name="txt_color_dark_back">#fff</color>
+    <color name="bckicon">#fff</color>
+    <color name="header_color">#fff</color>
+    <color name="wallet">#fff</color>
+    <color name="bell_icon">#fff</color>
+    <color name="edit_pr_cl_vc">@color/colorPrimary</color>
+    <color name="select_team_count">#1e1e1e</color>
+    <color name="rank_txt">#1e1e1e</color>
+    <color name="rank_view_line">#dbdbdb</color>
+    <color name="cstm_tb_layout_color">@color/colorPrimary</color>
+    <color name="dark_rectangle">#d9353e</color> <!-- valencia -->
+    <color name="dark_rect_stroke">#d9353e</color> <!-- valencia -->
+    <color name="gview_item">@color/colorPrimary</color>
+    <color name="gview_item_stroke">@color/colorPrimary</color>
+    <color name="gv_item_2">#0c1434</color> <!-- blue-zodiac -->
+    <color name="gv_item_2_stroke">#0c1434</color> <!-- blue-zodiac -->
+    <color name="entry_fee">#1d2441</color> <!-- New color not provided, keeping original -->
+    <color name="join_clicked">@color/btn_txt_color</color>
+    <color name="join_clicked_stroke">@color/btn_txt_color</color>
+    <color name="wk_bat_ar_bows_create_team">@color/vs_back</color>
+    <color name="wk_ar_bt_bwl_txt">#ffffff</color>
+
+    <!--<color name="dark_rect_color_solid">@color/vs_back</color>-->
+    <color name="dark_rect_color_solid">@color/vs_back</color>
+
+    <color name="dark_rect_color_stroke">@color/vs_back</color>
+    <color name="rounded_grad_start">#ec6325</color> <!-- New color not provided, keeping original -->
+    <color name="rounded_grad_end">#6a243c</color> <!-- tawny-port -->
+    <color name="live_cont_detail_team_rank_back">#1d2441</color> <!-- New color not provided, keeping original -->
+    <!--<color name="leaberboard_dark_rect_solid">#1d2441</color>-->
+    <color name="leaberboard_dark_rect_solid">#1d2441</color> <!-- New color not provided, keeping original -->
+    <color name="leaderboard_dark_rect_stroke">#1d2441</color> <!-- New color not provided, keeping original -->
+
+    <color name="create_team_selected_color">@color/black</color>
+    <color name="create_team_unselected_color">@color/white</color>
+</resources>

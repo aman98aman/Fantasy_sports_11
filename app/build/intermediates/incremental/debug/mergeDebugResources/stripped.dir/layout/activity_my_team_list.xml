@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary" android:tag="layout/activity_my_team_list_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <include
+            android:id="@+id/head"
+            layout="@layout/activity_mainheader" />
+
+        <include
+            android:id="@+id/incl_vs_bck"
+            layout="@layout/layout_vs_back" />
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipeRefreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/RL_BottomCreateTeam"
+            android:layout_below="@+id/incl_vs_bck">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/Rv_MyTeamList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                tools:listitem="@layout/adapter_my_team" />
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+        <TextView
+            android:id="@+id/tv_NoDataAvailable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="You have not created any team."
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/RL_BottomCreateTeam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:id="@+id/tv_MyCreateTeam"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:background="@drawable/roundbutton"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:paddingRight="30dp"
+                android:paddingBottom="10dp"
+                android:text="Create New Team"
+                android:textAlignment="center"
+                android:textColor="@color/btn_txt_color" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+         
